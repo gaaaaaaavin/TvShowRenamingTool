@@ -7,7 +7,7 @@ print(os.getcwd())
 season=str(input("Which Season?\n"))
 season="S"+season.zfill(2)+"E"
 
-extension=input("format? example.mkv\n")
+extension=input('format? example".mkv"\n')
 
 
 files=[]
